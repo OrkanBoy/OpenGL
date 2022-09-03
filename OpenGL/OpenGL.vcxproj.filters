@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\Error.cpp" />
+    <ClCompile Include="src\other\stb\stb_image.cpp" />
+    <ClCompile Include="..\..\..\..\Users\anwar\Downloads\glad\src\glad.c" />
+    <ClCompile Include="src\glo\Buffer.cpp" />
+    <ClCompile Include="src\glo\GLObject.cpp" />
+    <ClCompile Include="src\glo\Program.cpp" />
+    <ClCompile Include="src\glo\Texture.cpp" />
+    <ClCompile Include="src\glo\VertexArray.cpp" />
+    <ClCompile Include="src\game\Transform.cpp" />
+    <ClCompile Include="src\game\Camera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Error.hpp" />
+    <ClInclude Include="src\other\stb\stb_image.h" />
+    <ClInclude Include="src\glo\Buffer.hpp" />
+    <ClInclude Include="src\glo\GLObject.hpp" />
+    <ClInclude Include="src\glo\Program.hpp" />
+    <ClInclude Include="src\glo\Texture.hpp" />
+    <ClInclude Include="src\glo\VertexArray.hpp" />
+    <ClInclude Include="src\game\Transform.hpp" />
+    <ClInclude Include="src\game\Camera.hpp" />
+    <ClInclude Include="src\Application.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\light.glsl" />
+    <None Include="res\shaders\lightSource.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\container.png" />
+    <Image Include="res\textures\container_specular.png" />
+  </ItemGroup>
+</Project>
